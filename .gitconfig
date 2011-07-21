@@ -33,3 +33,7 @@
   f = fetch
   r = reset
   p = push
+
+ # stashes
+ ## Un-apply changes tat originally camo from the stash
+ stash-unapply = stash show -p | git apply -R
