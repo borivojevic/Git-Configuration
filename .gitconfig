@@ -35,5 +35,5 @@
   p = push
 
  # stashes
- ## Un-apply changes tat originally camo from the stash
+ ## Un-apply changes that originally came from the stash
  stash-unapply = stash show -p | git apply -R
